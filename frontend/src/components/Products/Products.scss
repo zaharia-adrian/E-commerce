@@ -1,0 +1,8 @@
+.products__wrapper {
+  .products__content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+    grid-gap: 1em;
+   
+  }
+}

@@ -1,0 +1,42 @@
+$secondary-color:#34363b;
+
+.signin{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    align-items: center;    
+
+
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+
+         @media only screen and (max-width: 800px) {
+            width: 70%;
+        }
+        @media only screen and (max-width: 600px) {
+            width: 80%;
+        }
+
+        label{
+            margin: 10px 5px;
+            font-size: 1.1rem;
+        }
+
+        input{
+            background-color: transparent;
+            border: 1px solid $secondary-color;
+            padding: 7px 12px;
+            font-size: 1rem;
+            border-radius: 15px;
+             
+        }
+
+        button{
+            width: fit-content;
+            padding: 7px 12px;
+        }
+    }
+}

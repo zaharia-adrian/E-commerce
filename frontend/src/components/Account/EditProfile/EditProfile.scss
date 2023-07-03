@@ -1,0 +1,26 @@
+$secondary-color:#34363b;
+.profile{
+    width: calc(80% - 30px);
+    height: calc(90vh - 45px);
+    margin: 0px 15px 0px 30px;
+
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        label{
+            margin: 10px 5px;
+            font-size: 1.1rem;
+        }
+
+        input{
+            background-color: transparent;
+            border: 1px solid $secondary-color;
+            padding: 7px 12px;
+            font-size: 1rem;
+            border-radius: 15px;
+             
+        }
+
+    }
+}
